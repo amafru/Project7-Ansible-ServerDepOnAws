@@ -23,7 +23,7 @@
 
     - name: Create security group
       amazon.aws.ec2_security_group:
-        name: ansible-test-SG
+        name: project7-ansible-SG
         description: project7 SG created via ansible auto
         vpc_id: "{{default_vpc_id}}"
         region: "{{region}}"
@@ -58,7 +58,7 @@
 
     - name: start an instance with a public IP address
       amazon.aws.ec2_instance:
-        name: "ansible-project7-instance"
+        name: "project7-ansible-client"
         key_name: "{{key_name}}"
           #vpc_subnet_id: subnet-5ca1ab1e
         instance_type: t2.micro
