@@ -1,0 +1,681 @@
+2023-08-02 11:28:23,061 p=3087 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 11:28:23,062 p=3087 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 11:28:23,067 p=3087 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 11:28:23,185 p=3087 u=ubuntu n=ansible | [WARNING]: While constructing a mapping from /home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml, line 4, column 5,
+found a duplicate dict key (name). Using last defined value only.
+
+2023-08-02 11:28:23,186 p=3087 u=ubuntu n=ansible | ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead: /home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml': line 1, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+hosts: localhost
+^ here
+
+2023-08-02 11:33:07,815 p=4145 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 11:33:07,817 p=4145 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 11:33:07,821 p=4145 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 11:33:07,956 p=4145 u=ubuntu n=ansible | [WARNING]: While constructing a mapping from /home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml, line 4, column 5,
+found a duplicate dict key (name). Using last defined value only.
+
+2023-08-02 11:33:07,957 p=4145 u=ubuntu n=ansible | ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead: /home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml': line 1, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+hosts: localhost
+^ here
+
+2023-08-02 11:35:09,685 p=4153 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 11:35:09,685 p=4153 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 11:35:09,689 p=4153 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 11:35:09,797 p=4153 u=ubuntu n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml': line 2, column 14, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+-hosts: localhost
+ gather_facts: False
+             ^ here
+
+2023-08-02 11:42:01,348 p=4167 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 11:42:01,349 p=4167 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 11:42:01,349 p=4167 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 11:42:01,349 p=4167 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 11:42:01,353 p=4167 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 11:42:01,461 p=4167 u=ubuntu n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml': line 2, column 14, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+-hosts: localhost
+ gather_facts: False
+             ^ here
+
+2023-08-02 11:50:05,463 p=4182 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 11:50:05,463 p=4182 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 11:50:05,464 p=4182 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 11:50:05,464 p=4182 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 11:50:05,468 p=4182 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 11:50:05,575 p=4182 u=ubuntu n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml': line 2, column 14, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+-hosts: localhost
+ gather_facts: False
+             ^ here
+
+2023-08-02 11:50:52,077 p=4187 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 11:50:52,078 p=4187 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 11:50:52,078 p=4187 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 11:50:52,078 p=4187 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 11:50:52,082 p=4187 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 11:50:52,355 p=4187 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 11:50:52,382 p=4187 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 11:50:53,262 p=4187 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "The ec2_key module requires a region and none was found in configuration, environment variables or module parameters"}
+2023-08-02 11:50:53,267 p=4187 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 11:50:53,267 p=4187 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-08-02 11:57:34,195 p=4227 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 11:57:34,196 p=4227 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 11:57:34,196 p=4227 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 11:57:34,196 p=4227 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 11:57:34,200 p=4227 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 11:57:34,358 p=4227 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 11:57:34,373 p=4227 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 11:57:35,556 p=4227 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 11:57:35,573 p=4227 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 11:57:35,573 p=4227 u=ubuntu n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-08-02 12:04:37,895 p=4279 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 12:04:37,895 p=4279 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 12:04:37,896 p=4279 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 12:04:37,896 p=4279 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 12:04:37,900 p=4279 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 12:04:38,055 p=4279 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 12:04:38,070 p=4279 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 12:04:38,862 p=4279 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "The ec2_key module requires a region and none was found in configuration, environment variables or module parameters"}
+2023-08-02 12:04:38,867 p=4279 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 12:04:38,867 p=4279 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-08-02 12:05:47,816 p=4312 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 12:05:47,816 p=4312 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 12:05:47,816 p=4312 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 12:05:47,816 p=4312 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 12:05:47,820 p=4312 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 12:05:47,975 p=4312 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 12:05:47,990 p=4312 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 12:05:48,758 p=4312 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "The ec2_key module requires a region and none was found in configuration, environment variables or module parameters"}
+2023-08-02 12:05:48,762 p=4312 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 12:05:48,762 p=4312 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-08-02 12:06:32,189 p=4346 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 12:06:32,190 p=4346 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 12:06:32,190 p=4346 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 12:06:32,190 p=4346 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 12:06:32,194 p=4346 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 12:06:32,346 p=4346 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 12:06:32,361 p=4346 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 12:06:33,130 p=4346 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "The ec2_key module requires a region and none was found in configuration, environment variables or module parameters"}
+2023-08-02 12:06:33,135 p=4346 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 12:06:33,135 p=4346 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-08-02 12:18:05,093 p=4438 u=ubuntu n=ansible | ERROR! the playbook: test-create-keypair.yaml could not be found
+2023-08-02 12:18:15,553 p=4441 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 12:18:15,553 p=4441 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 12:18:15,553 p=4441 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 12:18:15,554 p=4441 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 12:18:15,557 p=4441 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 12:18:15,713 p=4441 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 12:18:15,727 p=4441 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 12:18:16,881 p=4441 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 12:18:16,888 p=4441 u=ubuntu n=ansible | TASK [Save the key] *****************************************************************************************************************
+2023-08-02 12:18:17,593 p=4441 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 12:18:17,608 p=4441 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 12:18:17,608 p=4441 u=ubuntu n=ansible | localhost                  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-08-02 12:22:06,623 p=4522 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 12:22:06,623 p=4522 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 12:22:06,623 p=4522 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 12:22:06,624 p=4522 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 12:22:06,628 p=4522 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 12:22:06,737 p=4522 u=ubuntu n=ansible | ERROR! Invalid variable name in vars specified for Play: 'keypair-name' is not a valid variable name
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml': line 4, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  vars:
+    keypair-name: project7-key
+    ^ here
+
+2023-08-02 12:23:26,057 p=4528 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 12:23:26,058 p=4528 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 12:23:26,058 p=4528 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 12:23:26,058 p=4528 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 12:23:26,062 p=4528 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 12:23:26,172 p=4528 u=ubuntu n=ansible | ERROR! Invalid variable name in vars specified for Play: 'keypair-name' is not a valid variable name
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/create-keypair.yaml': line 4, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  vars:
+    keypair-name: project7key
+    ^ here
+
+2023-08-02 12:25:27,640 p=4536 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 12:25:27,641 p=4536 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 12:25:27,641 p=4536 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 12:25:27,641 p=4536 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 12:25:27,645 p=4536 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 12:25:27,797 p=4536 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 12:25:27,811 p=4536 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 12:25:29,001 p=4536 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 12:25:29,009 p=4536 u=ubuntu n=ansible | TASK [Save the key] *****************************************************************************************************************
+2023-08-02 12:25:29,735 p=4536 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 12:25:29,750 p=4536 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 12:25:29,750 p=4536 u=ubuntu n=ansible | localhost                  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-08-02 12:27:29,595 p=4612 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 12:27:29,595 p=4612 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 12:27:29,595 p=4612 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 12:27:29,595 p=4612 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 12:27:29,599 p=4612 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 12:27:29,751 p=4612 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 12:27:29,766 p=4612 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 12:27:30,916 p=4612 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 12:27:30,924 p=4612 u=ubuntu n=ansible | TASK [Save the key] *****************************************************************************************************************
+2023-08-02 12:27:31,645 p=4612 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 12:27:31,660 p=4612 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 12:27:31,660 p=4612 u=ubuntu n=ansible | localhost                  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-08-02 12:38:31,291 p=4717 u=ubuntu n=ansible | Starting galaxy collection install process
+2023-08-02 12:38:31,372 p=4717 u=ubuntu n=ansible | Process install dependency map
+2023-08-02 12:38:31,372 p=4717 u=ubuntu n=ansible | |
+2023-08-02 12:38:31,474 p=4717 u=ubuntu n=ansible | /
+2023-08-02 12:38:31,574 p=4717 u=ubuntu n=ansible | -
+2023-08-02 12:38:31,675 p=4717 u=ubuntu n=ansible | \
+2023-08-02 12:38:31,775 p=4717 u=ubuntu n=ansible | |
+2023-08-02 12:38:31,875 p=4717 u=ubuntu n=ansible | /
+2023-08-02 12:38:31,976 p=4717 u=ubuntu n=ansible | -
+2023-08-02 12:38:32,076 p=4717 u=ubuntu n=ansible | \
+2023-08-02 12:38:32,179 p=4717 u=ubuntu n=ansible | |
+2023-08-02 12:38:32,279 p=4717 u=ubuntu n=ansible | Starting collection install process
+2023-08-02 12:38:32,279 p=4717 u=ubuntu n=ansible | |
+2023-08-02 12:38:32,280 p=4717 u=ubuntu n=ansible | Downloading https://galaxy.ansible.com/download/amazon-aws-6.2.0.tar.gz to /home/ubuntu/.ansible/tmp/ansible-local-47177nip59cy/tmpaei_7pfe/amazon-aws-6.2.0-_5r2kevk
+2023-08-02 12:38:32,386 p=4717 u=ubuntu n=ansible | /
+2023-08-02 12:38:32,486 p=4717 u=ubuntu n=ansible | Installing 'amazon.aws:6.2.0' to '/home/ubuntu/.ansible/collections/ansible_collections/amazon/aws'
+2023-08-02 12:38:32,486 p=4717 u=ubuntu n=ansible | -
+2023-08-02 12:38:32,587 p=4717 u=ubuntu n=ansible | \
+2023-08-02 12:38:32,687 p=4717 u=ubuntu n=ansible | |
+2023-08-02 12:38:32,787 p=4717 u=ubuntu n=ansible | /
+2023-08-02 12:38:32,888 p=4717 u=ubuntu n=ansible | -
+2023-08-02 12:38:32,988 p=4717 u=ubuntu n=ansible | \
+2023-08-02 12:38:33,088 p=4717 u=ubuntu n=ansible | amazon.aws:6.2.0 was installed successfully
+2023-08-02 13:02:31,147 p=4757 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 13:02:31,148 p=4757 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 13:02:31,148 p=4757 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 13:02:31,148 p=4757 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 13:02:31,152 p=4757 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 13:02:31,310 p=4757 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 13:02:31,325 p=4757 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 13:02:32,588 p=4757 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 13:02:32,596 p=4757 u=ubuntu n=ansible | TASK [Save the created key] *********************************************************************************************************
+2023-08-02 13:02:33,329 p=4757 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 13:02:33,336 p=4757 u=ubuntu n=ansible | TASK [start an instance with a public IP address] ***********************************************************************************
+2023-08-02 13:02:34,001 p=4757 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "parameters are mutually exclusive: exact_count|count"}
+2023-08-02 13:02:34,006 p=4757 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 13:02:34,006 p=4757 u=ubuntu n=ansible | localhost                  : ok=2    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-08-02 13:03:40,582 p=4854 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 13:03:40,583 p=4854 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 13:03:40,583 p=4854 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 13:03:40,583 p=4854 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 13:03:40,587 p=4854 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 13:03:40,744 p=4854 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 13:03:40,759 p=4854 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 13:03:41,743 p=4854 u=ubuntu n=ansible | ok: [localhost]
+2023-08-02 13:03:41,751 p=4854 u=ubuntu n=ansible | TASK [Save the created key] *********************************************************************************************************
+2023-08-02 13:03:41,766 p=4854 u=ubuntu n=ansible | skipping: [localhost]
+2023-08-02 13:03:41,772 p=4854 u=ubuntu n=ansible | TASK [start an instance with a public IP address] ***********************************************************************************
+2023-08-02 13:04:02,068 p=4854 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 13:04:02,080 p=4854 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 13:04:02,080 p=4854 u=ubuntu n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2023-08-02 13:25:48,356 p=4955 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 13:25:48,357 p=4955 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 13:25:48,357 p=4955 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 13:25:48,357 p=4955 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 13:25:48,361 p=4955 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 13:25:48,470 p=4955 u=ubuntu n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/CreateSecurityGroup.yaml': line 16, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        #aws_access_key: ACCESS
+        - proto: tcp
+        ^ here
+
+2023-08-02 13:29:37,219 p=4964 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 13:29:37,220 p=4964 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 13:29:37,220 p=4964 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 13:29:37,220 p=4964 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 13:29:37,224 p=4964 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 13:29:37,331 p=4964 u=ubuntu n=ansible | [WARNING]: While constructing a mapping from /home/ubuntu/Project7-Ansible-ServerDepOnAws/CreateSecurityGroup.yaml, line 8, column
+7, found a duplicate dict key (name). Using last defined value only.
+
+2023-08-02 13:29:37,334 p=4964 u=ubuntu n=ansible | ERROR! conflicting action statements: amazon.aws.ec2_security_group, description
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/CreateSecurityGroup.yaml': line 8, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create security group
+      ^ here
+
+2023-08-02 13:35:59,872 p=4977 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 13:35:59,872 p=4977 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 13:35:59,873 p=4977 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 13:35:59,873 p=4977 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 13:35:59,877 p=4977 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 13:36:00,003 p=4977 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 13:36:00,044 p=4977 u=ubuntu n=ansible | TASK [Create security group] ********************************************************************************************************
+2023-08-02 13:36:01,188 p=4977 u=ubuntu n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: botocore.exceptions.ClientError: An error occurred (InvalidParameterValue) when calling the DescribeSecurityGroups operation: vpc-id
+2023-08-02 13:36:01,189 p=4977 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"boto3_version": "1.28.17", "botocore_version": "1.31.17", "changed": false, "error": {"code": "InvalidParameterValue", "message": "vpc-id"}, "msg": "Error in describe_security_groups: An error occurred (InvalidParameterValue) when calling the DescribeSecurityGroups operation: vpc-id", "response_metadata": {"http_headers": {"cache-control": "no-cache, no-store", "connection": "close", "content-type": "text/xml;charset=UTF-8", "date": "Wed, 02 Aug 2023 13:36:00 GMT", "server": "AmazonEC2", "strict-transport-security": "max-age=31536000; includeSubDomains", "transfer-encoding": "chunked", "vary": "accept-encoding", "x-amzn-requestid": "ca99b815-b7dd-4ba0-a947-4161749039c5"}, "http_status_code": 400, "request_id": "ca99b815-b7dd-4ba0-a947-4161749039c5", "retry_attempts": 0}}
+2023-08-02 13:36:01,194 p=4977 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 13:36:01,194 p=4977 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-08-02 13:37:58,729 p=5011 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 13:37:58,730 p=5011 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 13:37:58,730 p=5011 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 13:37:58,730 p=5011 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 13:37:58,734 p=5011 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 13:37:58,859 p=5011 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 13:37:58,898 p=5011 u=ubuntu n=ansible | TASK [Create security group] ********************************************************************************************************
+2023-08-02 13:38:04,630 p=5011 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 13:38:04,646 p=5011 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 13:38:04,646 p=5011 u=ubuntu n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-08-02 13:52:42,896 p=5065 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 13:52:42,897 p=5065 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 13:52:42,897 p=5065 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 13:52:42,897 p=5065 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 13:52:42,901 p=5065 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 13:52:43,015 p=5065 u=ubuntu n=ansible | ERROR! conflicting action statements: debug, var
+
+The error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/CreateSecurityGroup.yaml': line 38, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: Print Security Group Id
+      ^ here
+
+2023-08-02 13:54:54,296 p=5072 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 13:54:54,297 p=5072 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 13:54:54,297 p=5072 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 13:54:54,297 p=5072 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 13:54:54,301 p=5072 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 13:54:54,451 p=5072 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 13:54:54,466 p=5072 u=ubuntu n=ansible | TASK [Create security group] ********************************************************************************************************
+2023-08-02 13:55:00,354 p=5072 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 13:55:00,364 p=5072 u=ubuntu n=ansible | TASK [Print Security Group Id] ******************************************************************************************************
+2023-08-02 13:55:00,388 p=5072 u=ubuntu n=ansible | ok: [localhost] => {
+    "group_id": {
+        "changed": true,
+        "description": "an example SG created via ansible auto",
+        "failed": false,
+        "group_id": "sg-02fad846793972dad",
+        "group_name": "ansible-test-SG",
+        "ip_permissions": [
+            {
+                "from_port": 22,
+                "ip_protocol": "tcp",
+                "ip_ranges": [
+                    {
+                        "cidr_ip": "81.137.235.65/32"
+                    }
+                ],
+                "ipv6_ranges": [],
+                "prefix_list_ids": [],
+                "to_port": 22,
+                "user_id_group_pairs": [
+                    {
+                        "group_id": "sg-0b4a8fe0a8042d281",
+                        "user_id": "452076483511"
+                    }
+                ]
+            }
+        ],
+        "ip_permissions_egress": [
+            {
+                "from_port": 80,
+                "ip_protocol": "tcp",
+                "ip_ranges": [
+                    {
+                        "cidr_ip": "0.0.0.0/0"
+                    }
+                ],
+                "ipv6_ranges": [],
+                "prefix_list_ids": [],
+                "to_port": 80,
+                "user_id_group_pairs": []
+            }
+        ],
+        "owner_id": "452076483511",
+        "tags": {},
+        "vpc_id": "vpc-060f030f6a10fe3b8"
+    }
+}
+2023-08-02 13:55:00,402 p=5072 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 13:55:00,403 p=5072 u=ubuntu n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-08-02 14:03:14,822 p=5120 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 14:03:14,823 p=5120 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 14:03:14,823 p=5120 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 14:03:14,823 p=5120 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 14:03:14,827 p=5120 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 14:03:14,987 p=5120 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 14:03:15,002 p=5120 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 14:03:16,165 p=5120 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 14:03:16,174 p=5120 u=ubuntu n=ansible | TASK [Save the created key] *********************************************************************************************************
+2023-08-02 14:03:16,894 p=5120 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 14:03:16,900 p=5120 u=ubuntu n=ansible | TASK [Create security group] ********************************************************************************************************
+2023-08-02 14:03:16,916 p=5120 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'default_vpc_id' is undefined. 'default_vpc_id' is undefined\n\nThe error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/ServerDepOnAws.yaml': line 21, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n    - name: Create security group\n      ^ here\n"}
+2023-08-02 14:03:16,919 p=5120 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 14:03:16,919 p=5120 u=ubuntu n=ansible | localhost                  : ok=2    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-08-02 14:05:06,794 p=5196 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 14:05:06,794 p=5196 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 14:05:06,794 p=5196 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 14:05:06,795 p=5196 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 14:05:06,799 p=5196 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 14:05:06,961 p=5196 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 14:05:06,976 p=5196 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 14:05:07,976 p=5196 u=ubuntu n=ansible | ok: [localhost]
+2023-08-02 14:05:07,985 p=5196 u=ubuntu n=ansible | TASK [Save the created key] *********************************************************************************************************
+2023-08-02 14:05:08,002 p=5196 u=ubuntu n=ansible | skipping: [localhost]
+2023-08-02 14:05:08,008 p=5196 u=ubuntu n=ansible | TASK [Create security group] ********************************************************************************************************
+2023-08-02 14:05:08,024 p=5196 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'my_ip' is undefined. 'my_ip' is undefined\n\nThe error appears to be in '/home/ubuntu/Project7-Ansible-ServerDepOnAws/ServerDepOnAws.yaml': line 22, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n    - name: Create security group\n      ^ here\n"}
+2023-08-02 14:05:08,028 p=5196 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 14:05:08,028 p=5196 u=ubuntu n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2023-08-02 14:06:29,205 p=5236 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with yaml plugin: We were unable to read either
+as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax Error while loading
+YAML.   mapping values are not allowed in this context  The error appears to be in '/home/ubuntu/Project7-Ansible-
+ServerDepOnAws/inventory': line 4, column 19, but may be elsewhere in the file depending on the exact syntax problem.  The offending
+line appears to be:      web01       ansible_host:                   ^ here
+
+2023-08-02 14:06:29,206 p=5236 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory with ini plugin: Invalid host pattern 'all:'
+supplied, ending in ':' is not allowed, this character is reserved to provide a port.
+
+2023-08-02 14:06:29,206 p=5236 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/Project7-Ansible-ServerDepOnAws/inventory as an inventory source
+
+2023-08-02 14:06:29,206 p=5236 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-08-02 14:06:29,210 p=5236 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-08-02 14:06:29,370 p=5236 u=ubuntu n=ansible | PLAY [localhost] ********************************************************************************************************************
+2023-08-02 14:06:29,384 p=5236 u=ubuntu n=ansible | TASK [Create key pair] **************************************************************************************************************
+2023-08-02 14:06:30,379 p=5236 u=ubuntu n=ansible | ok: [localhost]
+2023-08-02 14:06:30,387 p=5236 u=ubuntu n=ansible | TASK [Save the created key] *********************************************************************************************************
+2023-08-02 14:06:30,403 p=5236 u=ubuntu n=ansible | skipping: [localhost]
+2023-08-02 14:06:30,409 p=5236 u=ubuntu n=ansible | TASK [Create security group] ********************************************************************************************************
+2023-08-02 14:06:36,224 p=5236 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 14:06:36,232 p=5236 u=ubuntu n=ansible | TASK [Save created security group id for reference] *********************************************************************************
+2023-08-02 14:06:36,942 p=5236 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 14:06:36,949 p=5236 u=ubuntu n=ansible | TASK [start an instance with a public IP address] ***********************************************************************************
+2023-08-02 14:06:56,813 p=5236 u=ubuntu n=ansible | changed: [localhost]
+2023-08-02 14:06:56,829 p=5236 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************************
+2023-08-02 14:06:56,829 p=5236 u=ubuntu n=ansible | localhost                  : ok=4    changed=3    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   

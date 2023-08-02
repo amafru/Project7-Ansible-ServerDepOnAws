@@ -1,0 +1,72 @@
+- hosts: localhost
+  gather_facts: False
+  vars:
+    key_name: project7key
+    ami_amazon_linux_2023: ami-0f34c5ae932e6f0e4 
+    ami_centos9: ami-0df2a11dd1fe1f8e3
+    region: us-east-1
+    default_vpc_id: vpc-060f030f6a10fe3b8
+    my_ip: 81.137.235.65/32
+    ansible_control_sg_id: sg-0b4a8fe0a8042d281
+  tasks:
+    - name: Create key pair
+      ec2_key:
+        name: "{{key_name}}"
+        region: "{{region}}"
+      register: keyout
+
+    - name: Save the created key
+      copy:
+        content: "{{keyout.key.private_key}}"
+        dest: ./{{key_name}}.pem
+      when: keyout.changed == True
+
+    - name: Create security group
+      amazon.aws.ec2_security_group:
+        name: ansible-test-SG
+        description: project7 SG created via ansible auto
+        vpc_id: "{{default_vpc_id}}"
+        region: "{{region}}"
+        rules:
+          #aws_secret_key: SECRET
+          #aws_access_key: ACCESS
+          - proto: tcp
+            from_port: 22
+            to_port: 22
+            cidr_ip: "{{my_ip}}"
+          - proto: tcp
+            from_port: 22
+            to_port: 22
+            group_id: "{{ansible_control_sg_id}}"
+
+        rules_egress:
+          - proto: tcp
+            from_port: 80
+            to_port: 80
+            cidr_ip: 0.0.0.0/0
+              #cidr_ipv6: 64:ff9b::/96
+              #group_name: example-other
+            # description to use if example-other needs to be created
+            #group_desc: other example EC2 group
+      register: group_id
+
+    - name: Save created security group id for reference
+      copy:
+        content: "{{group_id.group_id}}"
+        dest: ./securityGroupId.txt
+      when: group_id.changed
+
+    - name: start an instance with a public IP address
+      amazon.aws.ec2_instance:
+        name: "ansible-project7-instance"
+        key_name: "{{key_name}}"
+          #vpc_subnet_id: subnet-5ca1ab1e
+        instance_type: t2.micro
+        security_group: "{{group_id.group_id}}"
+        network:
+          assign_public_ip: true
+        image_id: "{{ami_amazon_linux_2023}}"
+        exact_count: 3
+        region: "{{region}}"
+        tags:
+          Project: Project7

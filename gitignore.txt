@@ -1,0 +1,2 @@
+# Ignore the 'secretfile.txt' file
+secretfile.txt

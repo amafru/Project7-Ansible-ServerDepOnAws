@@ -1,0 +1,17 @@
+- hosts: localhost
+  gather_facts: False
+  vars:
+    keypair_name: project7key  
+  tasks:
+    - name: Create key pair
+      ec2_key:
+        name: "{{keypair_name}}"
+        region: us-east-1
+      register: keyout
+
+    - name: Save the key
+      copy:
+        content: "{{keyout.key.private_key}}"
+        dest: ./{{keypair_name}}.pem
+      when: keyout.changed == True
+

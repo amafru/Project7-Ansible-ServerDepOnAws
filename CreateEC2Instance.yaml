@@ -1,0 +1,34 @@
+- hosts: localhost
+  gather_facts: False
+  vars:
+    key_name: ansible-auto-test-key    
+    ami_amazon_linux_2023: ami-0f34c5ae932e6f0e4   
+    ami_centos9: ami-0df2a11dd1fe1f8e3
+    region: us-east-1
+  tasks:
+    - name: Create key pair
+      ec2_key:
+        name: "{{key_name}}"
+        region: "{{region}}"
+      register: keyout
+
+    - name: Save the created key
+      copy:
+        content: "{{keyout.key.private_key}}"
+        dest: ./{{key_name}}.pem
+      when: keyout.changed == True
+
+    - name: start an instance with a public IP address
+      amazon.aws.ec2_instance:
+        name: "ansible-auto-test-instance"
+        key_name: "{{key_name}}"
+          #vpc_subnet_id: subnet-5ca1ab1e
+        instance_type: t2.micro
+        security_group: default
+        network:
+          assign_public_ip: true
+        image_id: "{{ami_amazon_linux_2023}}"
+        exact_count: 3
+        region: "{{region}}"
+        tags:
+          Project: AnsibleTest
