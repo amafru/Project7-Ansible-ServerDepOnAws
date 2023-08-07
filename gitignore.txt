@@ -1,2 +1,5 @@
 # Ignore the 'secretfile.txt' file
 secretfile.txt
+
+# Ignore all pem files with the word 'key' in them
+*-key.pem
